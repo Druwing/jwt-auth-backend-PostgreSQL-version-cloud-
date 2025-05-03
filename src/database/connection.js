@@ -1,7 +1,7 @@
 const { Sequelize } = require('sequelize');
 const config = require('../config');
 
-const sequelize = new Sequelize(process.env.POSTGRES_URL_LOCAL, {
+const sequelize = new Sequelize(process.env.POSTGRES_URL_CLOUD, {
   dialect: 'postgres',
   logging: process.env.NODE_ENV === 'development' ? console.log : false,
   dialectOptions: {
