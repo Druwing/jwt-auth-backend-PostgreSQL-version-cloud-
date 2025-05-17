@@ -34,7 +34,9 @@ npm install
 Crie um arquivo .env com as seguintes variáveis:
 
 POSTGRES_URL_LOCAL=SuaURLPostgreSQL
+
 JWT_SECRET=SuaChaveJWT
+
 PORT=3000
 
 Execute o servidor:
